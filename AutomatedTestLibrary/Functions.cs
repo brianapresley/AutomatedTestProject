@@ -15,6 +15,7 @@ namespace AutomatedTestingLibraryProject
             return i * i + 3;
         }
         public int X7X12(int i) {
+            if(i == 4) throw new Exception ("I = 4");
             return (i * i) - (7 * i) + 12;
         }
     }
